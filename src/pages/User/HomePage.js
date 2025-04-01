@@ -21,7 +21,7 @@ function HomePage() {
           {/* Logo & Name (Aligned to Top Left) */}
           <a className="navbar-brand d-flex align-items-center" href="/" style={{ position: "absolute", top: "10px", left: "10px" }}>
             <img
-              src="/img/logoimg.jpg"
+              src="/images/logoimg.jpg"
               alt="Homely Bites Logo"
               className="rounded-circle"
               width="45"

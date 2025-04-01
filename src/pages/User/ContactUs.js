@@ -5,7 +5,7 @@ function ContactUs() {
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img3.webp') no-repeat center center/cover`,
+        background: "url('/images/img3.webp') no-repeat center center/cover",
       }}
     >
     <div className="container d-flex flex-column justify-content-center align-items-center vh-100">

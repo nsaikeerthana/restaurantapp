@@ -1,5 +1,5 @@
 .item-cart-container {
-  background: url(`${process.env.PUBLIC_URL}/images/Owner1.jpeg`) no-repeat center center;
+  background: "url('/images/Owner1.jpg') no-repeat center center";
   background-size: cover;
   min-height: 100vh;
   padding: 20px;

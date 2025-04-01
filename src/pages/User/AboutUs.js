@@ -66,7 +66,7 @@ function AboutUs ()
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark" style={styles.navbar}>
         <a className="navbar-brand" href="#">
-          <img src={`${process.env.PUBLIC_URL}/images/logoimg.jpg`} alt="Logo" style={styles.logo} /> {/* Circular Logo */}
+          <img src={`/images/logoimg.jpg`} alt="Logo" style={styles.logo} /> {/* Circular Logo */}
           Homely Bites
         </a>
       </nav>

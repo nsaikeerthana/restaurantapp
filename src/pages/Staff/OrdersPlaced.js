@@ -15,7 +15,7 @@ const Ordersplaced = () => {
     <div className="orders-container">
       {/* Restaurant Logo */}
       <div className="logo-container">
-        <img src="/images/logo.png" alt="Homely Bites" className="logo" />
+        <img src="/images/logoimg.jpg" alt="Homely Bites" className="logo" />
       </div>
 
       {/* Title */}

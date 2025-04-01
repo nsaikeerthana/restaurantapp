@@ -27,7 +27,7 @@ function PaymentForm ()  {
       {paymentMethod === "UPI" && (
         <div className="text-center">
           <p>Enter this UPI ID / scan the QR Code:</p>
-          <img src="/img/scanner.jpeg" alt="QR Code" className="img-fluid" />
+          <img src="/images/scanner.jpg" alt="QR Code" className="img-fluid" />
           <p>xyz@ybl</p>
         </div>
       )}

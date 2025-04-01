@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaTrash } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const initialCart = [
-  { id: 1, name: "Chocolate Cake", price: 200, image: "/img/cake.jpeg", quantity: 1 },
-  { id: 2, name: "Idli", price: 200, image: "/img/idli.jpeg", quantity: 1 },
+  { id: 1, name: "Chocolate Cake", price: 200, image: "/images/cake.jpg", quantity: 1 },
+  { id: 2, name: "Idli", price: 200, image: "/images/idli.jpg", quantity: 1 },
 ];
 
 function Cart  ()
@@ -30,8 +30,7 @@ function Cart  ()
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: url('/images/img7.jpg') no-repeat center center / cover;
-
+        background: "url('/images/img7.jpg') no-repeat center center/cover",
       }}
     >
     <div className="container mt-4">
@@ -43,7 +42,8 @@ function Cart  ()
 
       {/* Cart Items */}
       <div className="card p-4 mt-3">
-        {cart.map((item) => (
+        {
+        cart.map((item) => (
           <div key={item.id} className="d-flex align-items-center border-bottom pb-3 mb-3">
             <input type="radio" className="me-3" />
             <img src={item.image} alt={item.name} className="rounded" width="80" />

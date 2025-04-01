@@ -2,20 +2,20 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
 const menuItems = [
-  { category: "Breakfast", name: "Idli", price: 200, image: "/images/idli.jpeg" },
-  { category: "Brunch", name: "Chocolate Cake (1 kg)", price: 200, image: "/images/cake.jpeg" },
-  { category: "Breakfast", name: "Pav Bhaji", price: 100, image: "/images/pavbhaji.jpeg" },
-  { category: "Brunch", name: "Pizza", price: 150, image: "/images/pizza.jpeg" },
-  { category: "Lunch", name: "Panner", price: 200, image: "/images/panner.jpeg" },
-  { category: "Brunch", name: "Noodles", price: 200, image: "/images/noodles.jpeg" },
-  { category: "Breakfast", name: "Puri", price: 200, image: "/images/puri.jpeg" },
-  { category: "Breakfast", name: "Bonda", price: 200, image: "/images/bonda.jpeg" },
-  { category: "Brunch", name: "Omlette", price: 200, image: "/images/omlette.jpeg" },
-  { category: "Breakfast", name: "Dosa", price: 200, image: "/images/dosa.jpeg" },
-  { category: "Brunch", name: "Paasta", price: 200, image: "/images/paasta.jpeg" },
-  { category: "Lunch", name: "Chicken", price: 200, image: "/images/chicken.jpeg" },
-  { category: "Breakfast", name: "Upma", price: 200, image: "/images/upma.jpeg" },
-  { category: "Breakfast", name: "Utappam", price: 200, image: "/images/utappam.jpeg" },
+  { category: "Breakfast", name: "Idli", price: 200, image: "/images/idli.jpg" },
+  { category: "Brunch", name: "Chocolate Cake (1 kg)", price: 200, image: "/images/cake.jpg" },
+  { category: "Breakfast", name: "Pav Bhaji", price: 100, image: "/images/pavbhaji.jpg" },
+  { category: "Brunch", name: "Pizza", price: 150, image: "/images/pizza.jpg" },
+  { category: "Lunch", name: "Panner", price: 200, image: "/images/panner.jpg" },
+  { category: "Brunch", name: "Noodles", price: 200, image: "/images/noodles.jpg" },
+  { category: "Breakfast", name: "Puri", price: 200, image: "/images/puri.jpg" },
+  { category: "Breakfast", name: "Bonda", price: 200, image: "/images/bonda.jpg" },
+  { category: "Brunch", name: "Omlette", price: 200, image: "/images/omlette.jpg" },
+  { category: "Breakfast", name: "Dosa", price: 200, image: "/images/dosa.jpg" },
+  { category: "Brunch", name: "Paasta", price: 200, image: "/images/paasta.jpg" },
+  { category: "Lunch", name: "Chicken", price: 200, image: "/images/chicken.jpg" },
+  { category: "Breakfast", name: "Upma", price: 200, image: "/images/upma.jpg" },
+  { category: "Breakfast", name: "Utappam", price: 200, image: "/images/utappam.jpg" },
 ];
 
 const MenuPage = () => {

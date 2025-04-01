@@ -4,42 +4,42 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const tableData = [
   {
     id: 1,
-    image: 'Table1.jpg',
+    image: 'images/Table1.jpg',
     price: 1500,
     width: '100%',
     height: '200px',
   },
   {
     id: 2,
-    image: 'Table2.jpg',
+    image: 'images/Table2.jpg',
     price: 1200,
     width: '100%',
     height: '200px',
   },
   {
     id: 3,
-    image: 'Table3.webp',
+    image: 'images/Table3.webp',
     price: 1800,
     width: '100%',
     height: '200px',
   },
   {
     id: 4,
-    image: 'Table4.webp',
+    image: 'images/Table4.webp',
     price: 1800,
     width: '100%',
     height: '200px',
   },
   {
     id: 5,
-    image: 'Table5.webp',
+    image: 'images/Table5.webp',
     price: 1800,
     width: '100%',
     height: '200px',
   },
   {
     id: 6,
-    image: 'Table6.jpg',
+    image: 'images/Table6.jpg',
     price: 1800,
     width: '100%',
     height: '200px',
@@ -55,7 +55,7 @@ const ReserveTable1 = () => {
           <div className="col-md-4 mb-4" key={table.id}>
             <div className="card h-100 shadow">
               <img
-                src={require(`/images/${table.image}`)}
+                src={require(`/public/${table.image}`)}
                 alt={`Table ${table.id}`}
                 style={{
                   width: table.width,

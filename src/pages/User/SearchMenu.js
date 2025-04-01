@@ -3,13 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaSearch, FaUserCircle } from "react-icons/fa";
 
 const searchedItems = [
-  { name: "Omlette", image: "/images/omlette.jpeg" },
-  { name: "North Indian", image: "/images/panner.jpeg" },
-  { name: "Coffee", image: "/images/coffee.jpeg" },
-  { name: "Cake", image: "/images/cake.jpeg" },
-  { name: "Chicken", image: "/images/chicken.jpeg" },
-  { name: "Idli", image: "/images/idli.jpeg" },
-  { name: "Noodles", image: "/images/noodles.jpeg" },
+  { name: "Omlette", image: "/images/omlette.jpg" },
+  { name: "North Indian", image: "/images/panner.jpg" },
+  { name: "Coffee", image: "/images/coffee.jpg" },
+  { name: "Cake", image: "/images/cake.jpg" },
+  { name: "Chicken", image: "/images/chicken.jpg" },
+  { name: "Idli", image: "/images/idli.jpg" },
+  { name: "Noodles", image: "/images/noodles.jpg" },
 ];
 
 const categories = [
