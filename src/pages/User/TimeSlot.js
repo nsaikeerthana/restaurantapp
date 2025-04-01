@@ -6,8 +6,9 @@ function TimeSlot() {
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img7.jpg') no-repeat center center/cover`,
+        background: `url(${process.env.PUBLIC_URL}/images/img7.jpg) no-repeat center center/cover`,
       }}
+      
     >
     <div className="container d-flex flex-column align-items-center mt-5">
       <div className="d-flex justify-content-between align-items-center p-3 border-bottom">

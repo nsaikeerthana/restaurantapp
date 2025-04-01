@@ -6,10 +6,11 @@ function SignUp() {
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img4.jpg') no-repeat center center/cover`,
+        background: `url(${process.env.PUBLIC_URL}/images/img4.jpg) no-repeat center center/cover`,
         height: "100vh",
         width: "100%",
       }}
+      
     >
       <h2 className="text-white mb-3">SIGN UP</h2>
 

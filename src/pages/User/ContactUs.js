@@ -5,19 +5,21 @@ function ContactUs() {
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img3.webp') no-repeat center center/cover`,
+        background: `url(${process.env.PUBLIC_URL}/images/img3.webp) no-repeat center center/cover`
+
       }}
     >
     <div className="container d-flex flex-column justify-content-center align-items-center vh-100">
       {/* Top Left Logo & Brand Name */}
       <div className="position-absolute top-0 start-0 mt-3 ms-3 d-flex align-items-center">
-        <img 
-          src="./img/logoimg.jpg" // Replace with actual logo URL
-          alt="Logo" 
-          className="rounded-circle me-2" 
-          width="45" 
-          height="45" 
-        />
+      <img 
+           src={`${process.env.PUBLIC_URL}/img/logoimg.jpg`} 
+           alt="Logo" 
+           className="rounded-circle me-2" 
+           width="45" 
+           height="45" 
+      />
+
         <h3 className="fw-bold mb-0">Homely Bites</h3>
       </div>
     

@@ -30,8 +30,7 @@ function Cart  ()
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: url('/images/img7.jpg') no-repeat center center / cover;
-
+        background: `url(${process.env.PUBLIC_URL}/images/img7.jpg) no-repeat center center fixed`,
       }}
     >
     <div className="container mt-4">

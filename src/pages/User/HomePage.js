@@ -6,14 +6,15 @@ import { FaGoogle, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 function HomePage() {
   return (
     <div
-      style={{
-        background: "url('/images/img1.jpg') no-repeat center center/cover",
-              height: "100vh",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              position: "relative",
-      }}
+    style={{
+      background: `url(${process.env.PUBLIC_URL}/images/img1.jpg) no-repeat center center/cover`,
+      height: "100vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "relative",
+    }}
+    
     >
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark  fixed-top">
@@ -21,7 +22,7 @@ function HomePage() {
           {/* Logo & Name (Aligned to Top Left) */}
           <a className="navbar-brand d-flex align-items-center" href="/" style={{ position: "absolute", top: "10px", left: "10px" }}>
             <img
-              src="/img/logoimg.jpg"
+              src={`${process.env.PUBLIC_URL}/img/logoimg.jpg`} 
               alt="Homely Bites Logo"
               className="rounded-circle"
               width="45"

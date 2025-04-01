@@ -4,7 +4,7 @@ function AboutUs ()
   const styles = {
     body: {
       fontFamily: "Arial, sans-serif",
-      background: "url(`${process.env.PUBLIC_URL}/images/aboutimg.jpg`) no-repeat center center fixed",
+      background: `url(${process.env.PUBLIC_URL}/images/aboutimg.jpg) no-repeat center center fixed`,
       backgroundSize: "cover",
       color: "white",
       margin: 0,

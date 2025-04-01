@@ -49,7 +49,7 @@ function Home ()
               {/* Header Section */}
               <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
               <a className="navbar-brand d-flex align-items-center " href="/img/img1.jpg">
-              <img src={'/images/logoimg.jpg'} alt="Logo" style={styles.logo} />Homely Bites
+              <img src={`${process.env.PUBLIC_URL}/img/logoimg.jpg`} alt="Logo" style={styles.logo} />Homely Bites
         </a>
                 <button
                   className="navbar-toggler"

@@ -23,7 +23,7 @@ const MenuPage = () => {
     <div className="container my-5">
       {/* Logo and Title */}
       <div className="d-flex align-items-center my-3">
-        <img src="/images/logoimg.jpg" alt="Homely Bites Logo" width="50" height="50" className="rounded-circle me-2" />
+        <img src={`${process.env.PUBLIC_URL}/img/logoimg.jpg`}  alt="Homely Bites Logo" width="50" height="50" className="rounded-circle me-2" />
         <h2 className="fw-bold">Homely Bites</h2>
       </div>
     

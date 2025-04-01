@@ -55,7 +55,7 @@ const ReserveTable1 = () => {
           <div className="col-md-4 mb-4" key={table.id}>
             <div className="card h-100 shadow">
               <img
-                src={require(`/images/${table.image}`)}
+                src={`${process.env.PUBLIC_URL}/images/${table.image}`}
                 alt={`Table ${table.id}`}
                 style={{
                   width: table.width,

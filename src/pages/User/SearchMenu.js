@@ -24,7 +24,14 @@ function SearchMenu  () {
       {/* Navbar */}
       <div className="d-flex justify-content-between align-items-center p-3 border-bottom">
         <div className="d-flex align-items-center">
-          <img src="/images/logoimg.jpg" alt="Homely Bites Logo" width="50" height="50" className="rounded-circle me-2" />
+        <img 
+         src={`${process.env.PUBLIC_URL}/images/logoimg.jpg`} 
+         alt="Homely Bites Logo" 
+         width="50" 
+          height="50" 
+          className="rounded-circle me-2" 
+        />
+
           <h4 className="fw-bold">Homely Bites</h4>
         </div>
         <FaUserCircle size={30} className="text-secondary" />

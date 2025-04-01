@@ -7,7 +7,7 @@ function PaymentForm ()  {
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img7.jpg') no-repeat center center/cover`,
+        background: `url(${process.env.PUBLIC_URL}/images/img1.jpg) no-repeat center center/cover`,
       }}
     >
     <div className="container mt-5">

@@ -7,8 +7,9 @@ function SignIn()
     <div
       className="d-flex flex-column justify-content-center align-items-center vh-100"
       style={{
-        background: `url('/images/img2.jpg') no-repeat center center/cover`,
+        background: `url(${process.env.PUBLIC_URL}/images/img2.jpg) no-repeat center center/cover`,
       }}
+      
     >
       <h2 className="text-white mb-3">SIGN IN</h2>
 
